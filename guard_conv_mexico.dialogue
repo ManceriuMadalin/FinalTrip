@@ -1,0 +1,8 @@
+~ start
+Witch:Hello! Today is Día de los Muertos. Would you like to help us catch some spirits to help them rest?
+Player:
+-Yes
+Witch:Good luck!
+-No
+Witch:Ok, no problem, have a nice trip.
+=> END

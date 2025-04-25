@@ -1,0 +1,11 @@
+~ start
+
+Cowboy: Hello! Today is the bullfighting festival, would you like to participate?
+Player:
+- Da
+	Cowboy: Good kuck!
+	do get_tree().change_scene_to_file("res://Scenes/Spain/spain_level.tscn")
+	=> END
+- Nu
+	Cowboy:It's okay if you're afraid.
+	=> END

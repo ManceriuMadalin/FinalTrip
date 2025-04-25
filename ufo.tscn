@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://oupoghxdfn8i"]
+
+[ext_resource type="Texture2D" uid="uid://cx8ib86uc8sut" path="res://Assets/ufo.png" id="1_u17gn"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_u17gn")

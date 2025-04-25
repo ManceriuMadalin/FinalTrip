@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://dcyjbipp41eb6"]
+
+[ext_resource type="Texture2D" uid="uid://cgriu7ldbrenh" path="res://Assets/cowboy.png" id="1_4rmwn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u404f"]
+atlas = ExtResource("1_4rmwn")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_65m2c"]
+atlas = ExtResource("1_4rmwn")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6w0tq"]
+atlas = ExtResource("1_4rmwn")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sj18n"]
+atlas = ExtResource("1_4rmwn")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3rtdv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u404f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_65m2c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6w0tq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sj18n")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_3rtdv")
+frame_progress = 0.874408

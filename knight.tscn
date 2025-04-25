@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://doambltgp6ftj"]
+
+[ext_resource type="Texture2D" uid="uid://48l5tt71gq2e" path="res://Assets/cavaler.png" id="1_rrk28"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_rrk28")

@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwvve1srskm20"]
+
+[ext_resource type="Texture2D" uid="uid://cvtr3d16yxkc3" path="res://Assets/Location_Marker.png" id="1_cjakh"]
+
+[node name="Location_Marker" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_cjakh")
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0.396078)
+offset_left = -16.0
+offset_top = -18.0
+offset_right = 16.0
+offset_bottom = 19.0

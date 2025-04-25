@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://8lhdihhp76i8"]
+
+[ext_resource type="Texture2D" uid="uid://yj8varcp816r" path="res://Assets/arrow_bull.png" id="1_tydjs"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tydjs")

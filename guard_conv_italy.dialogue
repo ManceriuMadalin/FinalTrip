@@ -1,0 +1,11 @@
+~ start
+
+Cavaler: Hello! Today the annual fights are taking place in the colosseum. Do you want to participate?
+Player:
+- Yes
+	Cavaler: Good luck!
+	do get_tree().change_scene_to_file("res://Scenes/Italy/italy_level.tscn")
+	=> END
+- No
+	Cavaler: Ok, no problem, have a nice trip.
+	=> END

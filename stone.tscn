@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://06me7ja6xbpi"]
+
+[ext_resource type="Texture2D" uid="uid://bgxtrgm7rykxe" path="res://Assets/Stone1.png" id="1_27pey"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_n4yby"]
+
+[node name="Stone" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_27pey")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 6)
+shape = SubResource("CircleShape2D_n4yby")
