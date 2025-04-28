@@ -43,7 +43,7 @@ This game was created for the Road Trip on itch.io in 3 weeks, focusing on explo
 - [Manceriu Madalin](https://github.com/ManceriuMadalin) - Programming, Design
 
 ## 🎲 Play on itch.io
-You can play FinalTrip on [itch.io](https://username.itch.io/finaltrip)
+You can play FinalTrip on [itch.io](https://madalin-manceriu.itch.io/final-trip)
   
 ## ✍️ Author
 
